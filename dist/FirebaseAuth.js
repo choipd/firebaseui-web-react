@@ -38,7 +38,7 @@ var FirebaseAuth = function (_React$Component) {
 
     require('firebaseui/dist/firebaseui.css');
 
-    var firebaseui = require('firebaseui');
+    var firebaseui = require('./firebaseui__ko');
 
     firebaseUiDeletion.then(function () {
       _this2.firebaseUiWidget = firebaseui.auth.AuthUI.getInstance() || new firebaseui.auth.AuthUI(_this2.firebaseAuth);
